@@ -81,12 +81,13 @@ class ViewController: UIViewController {
     // Реализуем фунцию нажатия на портал
     @objc
     private func handleTap() {
-        let SVC = SecondViewController()
-        
+        let secondViewController = SecondViewController()
+        secondViewController.title = "Characters"
+        let secondNavCon = UINavigationController(rootViewController: secondViewController)
+        secondNavCon.navigationBar.prefersLargeTitles = true
         // Указываем как именно он будут появляться , здесь на полный экран
-        SVC.modalPresentationStyle = .fullScreen
-        // Указываем анимацию для него 
-        present(SVC, animated: true)
+        // Указываем анимацию для него
+        present(secondNavCon, animated: true)
         
     }
     
