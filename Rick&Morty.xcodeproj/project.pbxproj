@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC43F6972CA85C1B007EE4FE /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC43F6962CA85C1B007EE4FE /* ApiManager.swift */; };
+		EC43F69B2CA85C86007EE4FE /* HeroCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC43F69A2CA85C86007EE4FE /* HeroCollectionViewCell.swift */; };
 		EC7852A52CA49E4600E6AA80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7852A42CA49E4600E6AA80 /* AppDelegate.swift */; };
 		EC7852A72CA49E4600E6AA80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7852A62CA49E4600E6AA80 /* SceneDelegate.swift */; };
 		EC7852A92CA49E4600E6AA80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7852A82CA49E4600E6AA80 /* ViewController.swift */; };
 		EC7852AE2CA49E4800E6AA80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7852AD2CA49E4800E6AA80 /* Assets.xcassets */; };
 		EC7852B12CA49E4800E6AA80 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EC7852B02CA49E4800E6AA80 /* Base */; };
 		EC7852B92CA4B21C00E6AA80 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7852B82CA4B21C00E6AA80 /* SecondViewController.swift */; };
-		EC7852BE2CA57BD600E6AA80 /* HeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7852BD2CA57BD600E6AA80 /* HeroCell.swift */; };
 		EC7852C22CA68E2E00E6AA80 /* OverviewHeroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7852C12CA68E2E00E6AA80 /* OverviewHeroController.swift */; };
 		EC7852C62CA69DC500E6AA80 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7852C52CA69DC500E6AA80 /* Model.swift */; };
-		EC7852CE2CA6AF5700E6AA80 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7852CD2CA6AF5700E6AA80 /* ApiManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC43F6962CA85C1B007EE4FE /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		EC43F69A2CA85C86007EE4FE /* HeroCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCollectionViewCell.swift; sourceTree = "<group>"; };
 		EC7852A12CA49E4600E6AA80 /* Rick&Morty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick&Morty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7852A42CA49E4600E6AA80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC7852A62CA49E4600E6AA80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,10 +30,8 @@
 		EC7852B02CA49E4800E6AA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC7852B22CA49E4800E6AA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC7852B82CA4B21C00E6AA80 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		EC7852BD2CA57BD600E6AA80 /* HeroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCell.swift; sourceTree = "<group>"; };
-		EC7852C12CA68E2E00E6AA80 /* OverviewHeroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OverviewHeroController.swift; path = ../OverviewHeroController.swift; sourceTree = "<group>"; };
+		EC7852C12CA68E2E00E6AA80 /* OverviewHeroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewHeroController.swift; sourceTree = "<group>"; };
 		EC7852C52CA69DC500E6AA80 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		EC7852CD2CA6AF5700E6AA80 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +45,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC43F6982CA85C47007EE4FE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC43F6992CA85C65007EE4FE /* Cell */,
+				EC7852A82CA49E4600E6AA80 /* ViewController.swift */,
+				EC7852B82CA4B21C00E6AA80 /* SecondViewController.swift */,
+				EC7852C12CA68E2E00E6AA80 /* OverviewHeroController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EC43F6992CA85C65007EE4FE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EC43F69A2CA85C86007EE4FE /* HeroCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		EC7852982CA49E4600E6AA80 = {
 			isa = PBXGroup;
 			children = (
@@ -64,13 +83,10 @@
 		EC7852A32CA49E4600E6AA80 /* Rick&Morty */ = {
 			isa = PBXGroup;
 			children = (
-				EC7852C42CA69DAD00E6AA80 /* ApiHero */,
-				EC7852A42CA49E4600E6AA80 /* AppDelegate.swift */,
 				EC7852A62CA49E4600E6AA80 /* SceneDelegate.swift */,
-				EC7852A82CA49E4600E6AA80 /* ViewController.swift */,
-				EC7852B82CA4B21C00E6AA80 /* SecondViewController.swift */,
-				EC7852C12CA68E2E00E6AA80 /* OverviewHeroController.swift */,
-				EC7852BD2CA57BD600E6AA80 /* HeroCell.swift */,
+				EC7852A42CA49E4600E6AA80 /* AppDelegate.swift */,
+				EC43F6982CA85C47007EE4FE /* ViewController */,
+				EC7852C42CA69DAD00E6AA80 /* ApiHero */,
 				EC7852AD2CA49E4800E6AA80 /* Assets.xcassets */,
 				EC7852AF2CA49E4800E6AA80 /* LaunchScreen.storyboard */,
 				EC7852B22CA49E4800E6AA80 /* Info.plist */,
@@ -82,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				EC7852C52CA69DC500E6AA80 /* Model.swift */,
-				EC7852CD2CA6AF5700E6AA80 /* ApiManager.swift */,
+				EC43F6962CA85C1B007EE4FE /* ApiManager.swift */,
 			);
 			path = ApiHero;
 			sourceTree = "<group>";
@@ -157,12 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC43F6972CA85C1B007EE4FE /* ApiManager.swift in Sources */,
+				EC43F69B2CA85C86007EE4FE /* HeroCollectionViewCell.swift in Sources */,
 				EC7852C22CA68E2E00E6AA80 /* OverviewHeroController.swift in Sources */,
-				EC7852CE2CA6AF5700E6AA80 /* ApiManager.swift in Sources */,
 				EC7852B92CA4B21C00E6AA80 /* SecondViewController.swift in Sources */,
 				EC7852A92CA49E4600E6AA80 /* ViewController.swift in Sources */,
 				EC7852A52CA49E4600E6AA80 /* AppDelegate.swift in Sources */,
-				EC7852BE2CA57BD600E6AA80 /* HeroCell.swift in Sources */,
 				EC7852A72CA49E4600E6AA80 /* SceneDelegate.swift in Sources */,
 				EC7852C62CA69DC500E6AA80 /* Model.swift in Sources */,
 			);
