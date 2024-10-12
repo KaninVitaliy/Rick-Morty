@@ -8,6 +8,8 @@
 
 ![alt text](https://github.com/KaninVitaliy/Rick-Morty/blob/main/Rick&Morty/image/Start.png?raw=true)
 
+<img src="Rick&Morty/image/Start.png" width="500">
+
 
 ## 2. Hero Collection.
 
