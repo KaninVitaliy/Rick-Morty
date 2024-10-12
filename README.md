@@ -6,7 +6,7 @@
 
 ##### Click on the portal and several heroes will open to you.
 
-/Rick&Morty/Rick&Morty/image/Start.png
+(https://raw.githubusercontent.com/KaninVitaliy/Rick-Morty/refs/heads/main/Rick%26Morty/image/Collection%20Hero.png)
 
 ## 2. Hero Collection.
 
