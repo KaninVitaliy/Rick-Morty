@@ -6,7 +6,6 @@
 
 ##### Click on the portal and several heroes will open to you.
 
-![alt text](https://github.com/KaninVitaliy/Rick-Morty/blob/main/Rick&Morty/image/Start.png?raw=true)
 
 <img src="Rick&Morty/image/Start.png" width="500">
 
@@ -15,12 +14,14 @@
 
 ##### Select the required hero and find out about him.
 
-![alt text](https://raw.githubusercontent.com/KaninVitaliy/Rick-Morty/refs/heads/main/Rick%26Morty/image/Collection%20Hero.png)
+
+<img src="Rick&Morty/image/Collection Hero.png" width="500">
+
 
 ## 3. Hero Information.
 
-![alt text](https://github.com/KaninVitaliy/Rick-Morty/blob/main/Rick&Morty/image/HeroInformation.png?raw=true)
 
+<img src="Rick&Morty/image/HeroInformation.png" width="500">
 
 
 
