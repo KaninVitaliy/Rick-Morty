@@ -19,5 +19,9 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>ofont.ru_Gilroy.ttf</string>
+	</array>
 </dict>
 </plist>

@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         view.backgroundColor = UIColor(named: "Scene")
         
-        // Добавляем звезды
+        // Добавляем звезды, портал и имя
         createImage(name: "Stars")
         createImage(name: "Portal")
         createImage(name: "Rick&Morty")
@@ -74,11 +74,11 @@ class ViewController: UIViewController {
     @objc
     private func handleTap() {
         let secondViewController = SecondViewController()
-//        secondViewController.title = "Characters"
-//        let secondNavCon = UINavigationController(rootViewController: secondViewController)
-//        secondNavCon.navigationBar.prefersLargeTitles = true
-        secondViewController.modalPresentationStyle = .fullScreen
-        present(secondViewController, animated: true)
+        secondViewController.title = "Characters"
+        let secondNavCon = UINavigationController(rootViewController: secondViewController)
+        secondNavCon.navigationBar.prefersLargeTitles = true
+        secondNavCon.modalPresentationStyle = .fullScreen
+        present(secondNavCon, animated: true)
     }
     
 }

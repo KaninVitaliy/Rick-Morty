@@ -26,7 +26,7 @@ class HeroCollectionViewCell: UICollectionViewCell {
         // Как будет располагаться текст
         label.textAlignment = .center
         // Цвет текста
-//        label.backgroundColor = .blue
+        // label.backgroundColor = .blue
         label.textColor = .white
         // Размер текста
         label.font = .boldSystemFont(ofSize: 17)
@@ -46,7 +46,6 @@ class HeroCollectionViewCell: UICollectionViewCell {
     
     func update(stringUrl: String?, title: String?) {
         // Setup Image
-        
         if let stringUrl, let url = URL(string: stringUrl) {
             URLSession.shared.dataTask(with: url) { [weak self] data, _, _ in
                 guard let imageData = data else { return }
@@ -68,7 +67,6 @@ private extension HeroCollectionViewCell {
     }
     
     func setupLayout() {
-        
         // Определяем ограничены ли представления границам представлений
         self.clipsToBounds = true
         self.backgroundColor = UIColor(named: "FrameColor")
@@ -78,7 +76,6 @@ private extension HeroCollectionViewCell {
     }
     
     func setupConstraints() {
-        
         NSLayoutConstraint.activate([
             imageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 8),
             imageView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -54),
